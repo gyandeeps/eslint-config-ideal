@@ -20,8 +20,7 @@ function release(type){
 }
 
 target.patch = function(){
-    //release("patch");
-    console.log("hi");
+    release("patch");
 };
 
 target.minor = function(){
