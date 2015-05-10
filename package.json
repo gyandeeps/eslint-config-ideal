@@ -1,0 +1,19 @@
+{
+    "name": "eslint-config-gyandeep",
+    "version": "1.0.0",
+    "description": "Configuration setup for Eslint",
+    "author": "Gyandeep Singh <gyandeeps@gmail.com>",
+    "license": "MIT",
+    "repository": "https://github.com/gyandeeps/eslint-config-gyandeep",
+    "main": "./index.js",
+    "bugs": {
+        "url": "https://github.com/gyandeeps/eslint-config-gyandeep"
+    },
+    "keywords": [
+        "eslint",
+        "lint",
+        "eslintconfig",
+        "javascript",
+        "code quality"
+    ]
+}
