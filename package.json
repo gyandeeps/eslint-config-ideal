@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-gyandeep",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "description": "Configuration setup for Eslint",
     "author": "Gyandeep Singh <gyandeeps@gmail.com>",
     "license": "MIT",
@@ -8,6 +8,14 @@
     "main": "./index.js",
     "bugs": {
         "url": "https://github.com/gyandeeps/eslint-config-gyandeep"
+    },
+    "devDependencies": {
+        "shelljs": "^0.3.0"
+    },
+    "scripts": {
+        "patch": "node Makefile.js patch",
+        "minor": "node Makefile.js minor",
+        "major": "node Makefile.js major"
     },
     "keywords": [
         "eslint",
