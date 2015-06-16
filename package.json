@@ -1,27 +1,27 @@
 {
-    "name": "eslint-config-ideal",
-    "version": "0.0.1",
-    "description": "Configuration setup for Eslint",
-    "author": "Gyandeep Singh <gyandeeps@gmail.com>",
-    "license": "MIT",
-    "repository": "https://github.com/gyandeeps/eslint-config-ideal",
-    "main": "./index.js",
-    "bugs": {
-        "url": "https://github.com/gyandeeps/eslint-config-ideal"
-    },
-    "devDependencies": {
-        "shelljs": "^0.3.0"
-    },
-    "scripts": {
-        "patch": "node Makefile.js patch",
-        "minor": "node Makefile.js minor",
-        "major": "node Makefile.js major"
-    },
-    "keywords": [
-        "eslint",
-        "lint",
-        "eslintconfig",
-        "javascript",
-        "code quality"
-    ]
+  "name": "eslint-config-ideal",
+  "version": "0.1.0",
+  "description": "Configuration setup for Eslint",
+  "author": "Gyandeep Singh <gyandeeps@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/gyandeeps/eslint-config-ideal",
+  "main": "./index.js",
+  "bugs": {
+    "url": "https://github.com/gyandeeps/eslint-config-ideal"
+  },
+  "devDependencies": {
+    "shelljs": "^0.3.0"
+  },
+  "scripts": {
+    "patch": "node Makefile.js patch",
+    "minor": "node Makefile.js minor",
+    "major": "node Makefile.js major"
+  },
+  "keywords": [
+    "eslint",
+    "lint",
+    "eslintconfig",
+    "javascript",
+    "code quality"
+  ]
 }
