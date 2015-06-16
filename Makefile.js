@@ -11,7 +11,7 @@ function release(type){
     exec("echo Commiting master with tags");
     exec("git add package.json");
     exec("git commit --amend --no-edit");
-    exec("git push origin --tags");
+    exec("git push origin master --tags");
 
     exec("echo Publish on NPM");
     exec("npm publish");

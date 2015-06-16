@@ -1,4 +1,4 @@
-[![NPM version](https://badge.fury.io/js/eslint-config-gyandeep.svg)](http://badge.fury.io/js/eslint-config-gyandeep)
+[![NPM version](https://badge.fury.io/js/eslint-config-ideal.svg)](http://badge.fury.io/js/eslint-config-ideal)
 
 Eslint configuration 
 ====================
@@ -8,14 +8,14 @@ Eslint configuration
 Install npm package
 
 ```sh
-npm install eslint-config-gyandeep
+npm install eslint-config-ideal
 ```
 
 Inside your project `.eslintrc` file
 
 ```js
 {
-    extend: "eslint-config-gyandeep"
+    extend: "eslint-config-ideal"
 }
 ```
 

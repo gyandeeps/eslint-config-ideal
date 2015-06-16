@@ -114,6 +114,7 @@ module.exports = {
         "comma-spacing": 2,
         "comma-style": [2, "last"],
         "complexity": [0, 11],
+        "computed-property-spacing": 2,
         "consistent-return": 2,
         "consistent-this": [2, "self"],
         "curly": [2, "all"],
@@ -151,6 +152,7 @@ module.exports = {
         "operator-assignment": [0, "always"],
         "operator-linebreak": 0,
         "padded-blocks": 0,
+        "prefer-const": 0,
         "quote-props": 0,
         "quotes": [2, "double"],
         "radix": 1,
@@ -170,6 +172,7 @@ module.exports = {
             "words": true,
             "nonwords": false
         }],
+        "spaced-comment": 0,
         "spaced-line-comment": [0, "always"],
         "space-after-keywords": [2, "never"],
         "space-before-blocks": [2, "never"],
