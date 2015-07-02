@@ -7,7 +7,7 @@ module.exports = {
         "no-catch-shadow": 2,
         "no-comma-dangle": 0,
         "no-cond-assign": 2,
-        "no-console": 2,
+        "no-console": 0,
         "no-constant-condition": 2,
         "no-continue": 0,
         "no-control-regex": 2,
@@ -46,7 +46,6 @@ module.exports = {
         "no-loop-func": 2,
         "no-mixed-requires": [0, false],
         "no-mixed-spaces-and-tabs": [2, false],
-        "linebreak-style": [0, "unix"],
         "no-multi-spaces": 2,
         "no-multi-str": 2,
         "no-multiple-empty-lines": [2, {
@@ -85,11 +84,13 @@ module.exports = {
         "no-sync": 0,
         "no-ternary": 0,
         "no-trailing-spaces": 0,
+        "no-this-before-super": 0,
         "no-throw-literal": 0,
         "no-undef": 2,
         "no-undef-init": 2,
         "no-undefined": 2,
         "no-underscore-dangle": 2,
+        "no-unexpected-multiline": 2,
         "no-unneeded-ternary": 2,
         "no-unreachable": 2,
         "no-unused-expressions": 2,
@@ -107,6 +108,7 @@ module.exports = {
         "no-with": 2,
         "no-wrap-func": 2,
 
+        "array-bracket-spacing": [2, "never"],
         "block-scoped-var": 0,
         "brace-style": [2, "stroustrup"],
         "camelcase": 2,
@@ -114,9 +116,10 @@ module.exports = {
         "comma-spacing": 2,
         "comma-style": [2, "last"],
         "complexity": [0, 11],
-        "computed-property-spacing": 2,
+        "computed-property-spacing": [2, "never"],
         "consistent-return": 2,
         "consistent-this": [2, "self"],
+        "constructor-super": 0,
         "curly": [2, "all"],
         "default-case": 2,
         "dot-location": 0,
@@ -129,7 +132,7 @@ module.exports = {
         "func-style": [0, "declaration"],
         "generator-star": 0,
         "generator-star-spacing": 0,
-        "global-strict": [2, "never"],
+        "global-strict": [0, "never"],
         "guard-for-in": 0,
         "handle-callback-err": 0,
         "indent": [2, 4, {
@@ -138,6 +141,15 @@ module.exports = {
         "key-spacing": [2, {
             "beforeColon": false,
             "afterColon": true
+        }],
+        "linebreak-style": [0, "unix"],
+        "lines-around-comment": [2, {
+            "beforeBlockComment": true,
+            "beforeLineComment": true,
+            "allowBlockStart": true,
+            "allowBlockEnd": false,
+            "afterBlockComment": false,
+            "afterLineComment": false
         }],
         "max-depth": [0, 4],
         "max-len": [0, 80, 4],
@@ -180,7 +192,7 @@ module.exports = {
             "anonymous": "never",
             "named": "never"
         }],
-        "strict": 2,
+        "strict": [2, "global"],
         "use-isnan": 2,
         "valid-jsdoc": [2, {
             "prefer": {
